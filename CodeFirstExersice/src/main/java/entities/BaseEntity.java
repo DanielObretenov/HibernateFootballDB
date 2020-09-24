@@ -3,7 +3,7 @@ package entities;
 import javax.persistence.*;
 
 @MappedSuperclass
-public class BaseEntity {
+public abstract class BaseEntity {
     private long id;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

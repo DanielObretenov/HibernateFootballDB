@@ -6,10 +6,10 @@
 //import university.Student;
 //import university.Teacher;
 
-import FootballBetting.gameAssets.Game;
-import FootballBetting.gameAssets.GamePlayerId;
-import FootballBetting.gameAssets.GamePlayerStatistics;
-import FootballBetting.teamAssets.Player;
+import entities.gameEntities.Game;
+import entities.gameEntities.GamePlayerId;
+import entities.gameEntities.GamePlayerStatistics;
+import entities.teamEntities.Player;
 
 import javax.persistence.EntityManager;
 import java.io.BufferedReader;
